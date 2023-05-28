@@ -36,7 +36,7 @@ const express = require('express')
 const serverless = require('serverless-http')
 const app = express()
 
-app.get('/',(req,res)=>{
+app.get('/get',(req,res)=>{
     return res.json({message:"Hello World"})
 })
 
